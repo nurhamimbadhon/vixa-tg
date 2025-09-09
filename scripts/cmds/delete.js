@@ -6,7 +6,7 @@ module.exports = {
     name: "delete",
     version: "1.0",
     aliases: [],
-    author: "dipto",
+    author: "Hamim",
     countDown: 3,
     role: 3, 
     description: "Deletes a command file",
