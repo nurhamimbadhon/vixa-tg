@@ -1,7 +1,7 @@
 module.exports.config = {
   name: "reverse",
   aliases: [],
-  author: "dipto",
+  author: "Hamim",
   countDown: 2,
   role: 0,
   description: "Reverses the text you provide.",
