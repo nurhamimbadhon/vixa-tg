@@ -1,8 +1,8 @@
 module.exports.config = {
   name: "unsend",
-  aliases: ["uns","r"],
+  aliases: ["uns","r","u"],
   version: "1.0",
-  author: "Dipto",
+  author: "Hamim",
   role: 0,
   description: "Deletes the bot's message when replied with /unsend",
   commandCategory: "utility",
