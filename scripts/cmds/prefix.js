@@ -1,7 +1,7 @@
 module.exports.config = {
   name: "prefix",
   version: "1.0.1",
-  author: "Dipto",
+  author: "Hamim",
   countDown: 0,
   role: 0,
   description: {
@@ -46,7 +46,7 @@ module.exports.onChat = async ({ message, event, threadsData }) => {
       const ppz = global.functions.config.prefix;
 
       // Reply with the current prefixes
-      message.reply(`✨ | Your Baby Prefix => ${ppz}\n🌟 | Your Group Prefix => ${ppy}`);
+      message.reply(`✨ | VIXA's Prefix => ${ppz}\n🌟 | Your Group Prefix => ${ppy}`);
     }
   } catch (error) {
     console.error("Error fetching prefix:", error.message);
