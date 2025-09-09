@@ -12,7 +12,7 @@ const baseApiUrl = async () => {
 module.exports.config = {
   name: "autodl",
   version: "1.0.1",
-  author: "Dipto",
+  author: "Hamim",
   countDown: 0,
   role: 0,
   description: {
@@ -53,7 +53,7 @@ module.exports.onChat = async ({ bot, msg }) => {
       });
 // Store the ID of the "processing" message//
       const waitMId = wait.message_id; 
-      const videoPath = path.join(__dirname, "caches", "diptoo.mp4");
+      const videoPath = path.join(__dirname, "caches", "video.mp4");
 
       const { data } = await axios.get(
         `${await baseApiUrl()}/alldl?url=${encodeURIComponent(messageText)}`
