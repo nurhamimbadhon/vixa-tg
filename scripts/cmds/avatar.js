@@ -1,8 +1,8 @@
 module.exports.config = {
-    name: "avatar",
-    aliases: ["avt","pp","dp"],
+    name: "pp",
+    aliases: ["avt","pfp","dp"],
     version: "1.0",
-    credits: "Dipto",
+    credits: "Hamim",
     role: 0,
     hasPermission: 0,
     usePrefix: true,
@@ -25,7 +25,7 @@ module.exports.run = async function ({ bot, msg, args }) {
             
             const fileId = user.photos[0][0].file_id;
             
-            bot.sendPhoto(chatId, fileId, { caption: `Here is the avatar of user ${userId}` });
+            bot.sendPhoto(chatId, fileId, { caption: `${userId)` });
         } else {
             bot.sendMessage(chatId, `No avatar found for user ${userId}`);
         }
