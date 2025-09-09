@@ -1,5 +1,5 @@
 module.exports.config = {
-    name: "stalk",
+    name: "info",
     aliases: ["userinfo"],
     version: "1.0",
     credits: "Dipto",
