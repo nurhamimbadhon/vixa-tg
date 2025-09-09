@@ -9,7 +9,7 @@ const baseApiUrl = async () => {
 module.exports.config = {
   name: "ss",
   version: "1.0",
-  author: "dipto",
+  author: "Hamim",
   role: 2,
   description: "Take a screenshot of a website",
   category: "utility",
