@@ -5,8 +5,8 @@ module.exports.config = {
   aliases: ["report"],
   version: "1.0.0",
   role: 0,
-  author: "dipto",
-  description: "Send a call/report to bot admins and operators.",
+  author: "Hamim",
+  description: "Send a message/report to bot admins and operators.",
   usePrefix: true,
   guide: "[message]",
   category: "Report",
@@ -69,7 +69,7 @@ module.exports.onStart = async ({ api, message, args, event, usersData }) => {
 
     if (!reportMessage) {
       return message.reply(
-        "Please provide a message for the report.\n\nExample:\n!call This is a report message."
+        "Please provide a message.\n\nExample:\n!call This is a report message."
       );
     }
 
